@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, make_response, flash, redirec
 #
 app = Flask(__name__)
                                             
-
+#
 @app.route("/")
 def index():
     strng = request.cookies.get('strng')
